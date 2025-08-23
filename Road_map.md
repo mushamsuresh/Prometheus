@@ -1,5 +1,5 @@
 🔹 Prometheus (Metrics Collection & Alerting)
-1. Core Concepts
+## 1. Core Concepts
 
 - What Prometheus is and why it’s used (metrics-based monitoring, pull model)
 
@@ -9,7 +9,7 @@
 
 - PromQL (Prometheus Query Language) basics
 
-2. Installation & Setup
+## 2. Installation & Setup
 
 - Installing Prometheus (binary, Docker, Kubernetes Helm chart)
 
@@ -17,7 +17,7 @@
 
 - Setting retention & storage (local disk, remote storage like Thanos, Cortex, VictoriaMetrics)
 
-3. Metrics Types
+## 3. Metrics Types
 
 - Counter → monotonically increasing (e.g., requests_total)
 
@@ -27,7 +27,7 @@
 
 - Summary → similar to histogram but provides quantiles
 
-4. PromQL (must practice)
+## 4. PromQL (must practice)
 
 - Basic queries: rate(), increase(), irate()
 
@@ -37,7 +37,7 @@
 
 - Functions: topk(), bottomk(), histogram_quantile()
 
-5. Exporters
+## 5. Exporters
 
 - Node Exporter → system-level metrics (CPU, memory, disk)
 
@@ -47,7 +47,7 @@
 
 - Custom exporters → writing your own
 
-6. Alerting
+## 6. Alerting
 
 - Alert rules in Prometheus (rules.yml)
 
